@@ -19,9 +19,9 @@ public class MedianaTest {
 
     @Test
     public void testeVetorOrdenadoImpar() {
-        double[] v = {1, 2, 3, 4, 5};
-        Mediana m = new Mediana();
-        double res = m.getMediana(v);
+        double[] vetor = {1, 2, 3, 4, 5};
+        Mediana mediana = new Mediana();
+        double res = mediana.getMediana(vetor);
         assertEquals(3, res, 0.1);
     }
     
