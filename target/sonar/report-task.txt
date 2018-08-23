@@ -1,0 +1,7 @@
+organization=jonatawilliam-github
+projectKey=com.jonatawilliam:atividade06
+serverUrl=https://sonarcloud.io
+serverVersion=7.3.0.15868
+dashboardUrl=https://sonarcloud.io/dashboard?id=com.jonatawilliam%3Aatividade06
+ceTaskId=AWVpEDMk-_qOfix7VQ7e
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AWVpEDMk-_qOfix7VQ7e
