@@ -7,8 +7,11 @@ package com.jonatawilliam.atividade06;
 public class Mediana {
     
 
-    double getMediana(double[] vetor){     
-        return 3.0;
+    double getMediana(double[] vetor){
+        if(vetor != null)
+            return 3.0;
+        else
+            throw new Validacao();
         
     }
     

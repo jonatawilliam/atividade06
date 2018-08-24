@@ -20,7 +20,7 @@ public class MedianaTest {
         assertEquals(3, resposta, 0.1);
     }
     
-    @Test
+    @Test(expected = Validacao.class)
     public void testeVetorNulo(){
         Mediana mediana = new Mediana();
         assertNull(mediana.getMediana(null));
