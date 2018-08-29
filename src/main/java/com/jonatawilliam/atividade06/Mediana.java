@@ -63,4 +63,8 @@ public class Mediana {
         return aux;
     }
     
+    public double getValoresMaioresDaMedia(double[] vetor, double media){
+        return 1.0;
+    }
+    
 }
