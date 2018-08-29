@@ -7,12 +7,11 @@ package com.jonatawilliam.atividade06;
 public class Mediana {
     
 
-    double getMediana(double[] vetor){
+    public boolean getVetorVazioOuNulo(double[] vetor){
         if(vetor != null)
-            return 3.0;
+            return false;
         else
-            throw new Validacao();
-        
+           throw new Validacao();
     }
     
     public double getMedia(double[] vetor){
@@ -83,6 +82,18 @@ public class Mediana {
             }
             return Math.sqrt(((double) 1 /( vetor.length -1)) * somar);
 	}
+    }
+    
+    public double getMediana(double[] vetor, double media){
+        float aux = 0;
+        if(vetor.length % 2 == 0) {
+            aux = vetor.length / 2;
+            aux = (aux + aux + 1) / 2;
+            return aux;
+        } 
+        else
+            return vetor[vetor.length / 2];
+
     }
     
 }
