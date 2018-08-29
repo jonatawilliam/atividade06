@@ -64,7 +64,12 @@ public class Mediana {
     }
     
     public double getValoresMaioresDaMedia(double[] vetor, double media){
-        return 1.0;
+        double aux = 0;
+        for (int x = 0; x < vetor.length; x++) {
+            if(vetor[x] > media)
+                aux += 1;
+        }
+        return aux;
     }
     
 }
