@@ -11,14 +11,6 @@ public class MedianaTest {
     
     public MedianaTest() {
     }
-
-    @Test
-    public void testeVetorOrdenadoImpar(){
-        double[] vetor = {1, 2, 3, 4, 5};
-        Mediana mediana = new Mediana();
-        double resposta = mediana.getMediana(vetor);
-        assertEquals(3, resposta, 0.1);
-    }
     
     @Test(expected = Validacao.class)
     public void testeVetorNulo(){
@@ -82,7 +74,7 @@ public class MedianaTest {
         double[] vetor = {1, 2, 3, 4, 5};
         Mediana mediana = new Mediana();
         double media = mediana.getMedia(vetor);
-        assertEquals(3, mediana.getMediana(vetor, media), 0.1);
+        assertEquals(3, mediana.getMediana(vetor), 0.1);
     }
     
     
