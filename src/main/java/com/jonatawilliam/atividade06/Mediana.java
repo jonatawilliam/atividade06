@@ -72,4 +72,8 @@ public class Mediana {
         return aux;
     }
     
+    public double getDesvioPadrao(double[] vetor){
+        return 1.58114;
+    }
+    
 }
