@@ -39,6 +39,13 @@ public class MedianaTest {
         assertEquals(3.0, media.getMedia(vetor), 0.1);
     }
     
+    @Test
+    public void testeMenorValor(){
+        double[] vetor = {1, 2, 3, 4, 5};
+        Mediana menor = new Mediana();
+        assertEquals(1.0, menor.getMenorValor(vetor), 0.1);
+    }
+    
     
     
 }
