@@ -72,8 +72,17 @@ public class Mediana {
         return aux;
     }
     
-    public double getDesvioPadrao(double[] vetor){
-        return 1.58114;
+    public double getDesvioPadrao(double[] vetor, double media){
+        if (vetor.length == 1) {
+		return 0.0;
+	} else {
+            double somar = 0;
+            for (int i = 0; i < vetor.length; i++) {
+                    double aux = vetor[i] - media;
+                    somar = somar + aux * aux;
+            }
+            return Math.sqrt(((double) 1 /( vetor.length -1)) * somar);
+	}
     }
     
 }
