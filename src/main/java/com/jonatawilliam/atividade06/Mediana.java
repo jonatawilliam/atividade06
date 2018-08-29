@@ -16,12 +16,13 @@ public class Mediana {
     }
     
     public double getMedia(double[] vetor){
-        return 7.5;
-    }
-    
-    
-
-
-    
+        double somar = 0;
+        double media = 0;
+        
+        for (int i = 0; i < vetor.length; i++){
+            somar = somar + vetor[i];
+        }
+        return media = (somar / vetor.length);	
+     }
     
 }
