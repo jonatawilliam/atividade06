@@ -61,6 +61,14 @@ public class MedianaTest {
         assertEquals(2, menorMedia.getValoresMenoresDaMedia(vetor, media), 0.1);
     }
     
+    @Test
+    public void testeValoresMaioresDaMedia(){
+        double[] vetor = {1, 2, 3, 4, 10};
+        Mediana maiorMedia = new Mediana();
+        double media = maiorMedia.getMedia(vetor);
+        assertEquals(1, maiorMedia.getValoresMaioresDaMedia(vetor, media), 0.1);
+    }
+    
     
     
 }
