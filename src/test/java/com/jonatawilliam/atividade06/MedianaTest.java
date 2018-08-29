@@ -49,8 +49,8 @@ public class MedianaTest {
     @Test
     public void testeMaiorValor(){
         double[] vetor = {1, 2, 3, 4, 5};
-        Mediana menor = new Mediana();
-        assertEquals(5.0, menor.getMaiorValor(vetor), 0.1);
+        Mediana maior = new Mediana();
+        assertEquals(5.0, maior.getMaiorValor(vetor), 0.1);
     }
     
     

@@ -40,7 +40,17 @@ public class Mediana {
     }
     
     public double getMaiorValor(double[] vetor){
-        return 5.0;
+        double aux = 0;
+        for (int x = 0; x < vetor.length; x++) {
+            for (int y = 0; y < vetor.length - 1; y++) {
+                if(vetor[y] > vetor[x]){ 
+                aux = vetor[y];
+                vetor[y] = vetor[x];
+                vetor[x] = aux;
+                }
+            } 
+        }
+        return vetor[vetor.length -1];
     }
     
 }
