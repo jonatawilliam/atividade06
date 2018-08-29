@@ -26,4 +26,13 @@ public class MedianaTest {
         assertNull(mediana.getMediana(null));
     }
     
+    @Test
+    public void testeVetorVazio(){
+        double[] vetor = {};
+        Mediana mediana = new Mediana();
+        assertEquals("", mediana.getMediana(vetor));
+    }
+    
+    
+    
 }
