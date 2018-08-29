@@ -54,10 +54,10 @@ public class MedianaTest {
     }
     
     @Test
-    public void testeValorMenorDaMedia(){
+    public void testeValoresMenoresDaMedia(){
         double[] vetor = {1, 2, 3, 4, 5};
         Mediana menorMedia = new Mediana();
-        assertEquals(2, menorMedia.getValorMenorDaMedia(vetor));
+        assertEquals(2, menorMedia.getValoresMenoresDaMedia(vetor));
     }
     
     
