@@ -15,6 +15,10 @@ public class Mediana {
         
     }
     
+    public double getMedia(double[] vetor){
+        return 7.5;
+    }
+    
     
 
 

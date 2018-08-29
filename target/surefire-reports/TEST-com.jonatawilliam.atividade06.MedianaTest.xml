@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="1" name="com.jonatawilliam.atividade06.MedianaTest" time="1.474" errors="0" skipped="0">
+<testsuite tests="4" failures="1" name="com.jonatawilliam.atividade06.MedianaTest" time="0.428" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/jre/lib"/>
@@ -63,7 +63,7 @@
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase classname="com.jonatawilliam.atividade06.MedianaTest" name="testeMedia" time="0.071">
+  <testcase classname="com.jonatawilliam.atividade06.MedianaTest" name="testeMedia" time="0.052">
     <failure message="expected:&lt;7.5&gt; but was:&lt;3.0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;7.5&gt; but was:&lt;3.0&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
@@ -100,6 +100,22 @@
 	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
 </failure>
+    <system-out>i: 0
+Somar: 1.0
+tamanho: 5
+i: 1
+Somar: 3.0
+tamanho: 5
+i: 2
+Somar: 6.0
+tamanho: 5
+i: 3
+Somar: 10.0
+tamanho: 5
+i: 4
+Somar: 15.0
+tamanho: 5
+</system-out>
   </testcase>
   <testcase classname="com.jonatawilliam.atividade06.MedianaTest" name="testeVetorVazio" time="0"/>
   <testcase classname="com.jonatawilliam.atividade06.MedianaTest" name="testeVetorOrdenadoImpar" time="0"/>

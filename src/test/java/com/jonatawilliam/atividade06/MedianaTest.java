@@ -36,7 +36,7 @@ public class MedianaTest {
     public void testeMedia(){
         double[] vetor = {1, 2, 3, 4, 5};
         Mediana media = new Mediana();
-        assertEquals(7.5, media.getMedia(vetor), 0.1);
+        assertEquals(3.0, media.getMedia(vetor), 0.1);
     }
     
     
