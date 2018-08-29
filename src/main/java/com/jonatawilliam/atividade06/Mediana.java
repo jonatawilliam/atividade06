@@ -39,4 +39,8 @@ public class Mediana {
         return vetor[0];
     }
     
+    public double getMaiorValor(double[] vetor){
+        return 5.0;
+    }
+    
 }
