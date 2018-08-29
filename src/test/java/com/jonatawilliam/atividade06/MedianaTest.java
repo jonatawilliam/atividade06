@@ -57,7 +57,8 @@ public class MedianaTest {
     public void testeValoresMenoresDaMedia(){
         double[] vetor = {1, 2, 3, 4, 5};
         Mediana menorMedia = new Mediana();
-        assertEquals(2, menorMedia.getValoresMenoresDaMedia(vetor));
+        double media = menorMedia.getMedia(vetor);
+        assertEquals(2, menorMedia.getValoresMenoresDaMedia(vetor, media), 0.1);
     }
     
     
