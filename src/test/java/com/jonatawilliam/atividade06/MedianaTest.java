@@ -69,6 +69,13 @@ public class MedianaTest {
         assertEquals(1, maiorMedia.getValoresMaioresDaMedia(vetor, media), 0.1);
     }
     
+    @Test
+    public void testeDesvioPadrao(){
+        double[] vetor = {1, 2, 3, 4, 5};
+        Mediana desvioPadrao = new Mediana();
+        assertEquals(1.58114, desvioPadrao.getDesvioPadrao(vetor), 0.1);
+    }
+    
     
     
 }
