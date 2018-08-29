@@ -25,4 +25,8 @@ public class Mediana {
         return media = (somar / vetor.length);	
      }
     
+    public double getMenorValor(double[] vetor){
+        return 1.0;
+    }
+    
 }
